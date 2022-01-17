@@ -1,8 +1,17 @@
+body{
+    background-image: url(https://images4.alphacoders.com/148/thumbbig-148954.webp);
+}
+
 h1{
     color: red;
 }
 img {
     width: 400px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
 }
 #thirdDiv{
     width: 500px;
@@ -14,4 +23,13 @@ img {
 #spanId{
     font-size: 18px;
     margin: 50px;
+}
+
+.divClass{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
